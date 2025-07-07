@@ -16,7 +16,7 @@ export const skills = [
     skills: [
       {
         name: "HTML",
-        image: "https://i.imghippo.com/files/h1Qmc1728549320.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rJ4mP9FHsLOTURgpRk3ebMCubNKphTcQtQ&s",
       },
       {
         name: "CSS",
