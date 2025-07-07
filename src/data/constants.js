@@ -99,7 +99,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://i.imghippo.com/files/socx31728551133.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzZUqhFS7caacKA1mKqodrmHpxbwRClS2BA&s",
     school: "Swarrnim Startup & Innovation University",
     date: "july - 2023",
     grade: "Result is not declared by university till date",
@@ -108,7 +108,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://i.imghippo.com/files/XBVoa1728551088.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKv4wSS6C_HNhAExR41GiSVzVS5Y_pgewbJBdYLyxp4g&usqp=CAE&s",
     school: "Dipak Shikshan Sankul, Ahmedabad",
     date: "2022 - 2023",
     grade: "85.43%",
@@ -116,7 +116,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://i.imghippo.com/files/XBVoa1728551088.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKv4wSS6C_HNhAExR41GiSVzVS5Y_pgewbJBdYLyxp4g&usqp=CAE&s",
     school: "Dipak Shikshan Sankul, Ahmedabad",
     date: "2020 - 2021",
     grade: "95.16%",
