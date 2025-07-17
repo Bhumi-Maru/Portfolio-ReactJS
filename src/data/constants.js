@@ -127,7 +127,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Eduford",
+    title: "Eduford.",
     description:
       "This HTML and CSS code creates a responsive university website with multiple sections, including a navigation bar, a header featuring a banner image and text, course offerings, global campus locations, facilities, testimonials, a call-to-action for course enrollment, and a footer. The site includes interactive elements such as a toggle menu for smaller screens, hover effects on course and campus items, and star ratings for testimonials. The design is visually enhanced with background images, icons, and a color scheme of red and white. The layout is optimized for both desktop and mobile devices.",
     image: "https://i.imghippo.com/files/Sbj7964Bbs.png",
