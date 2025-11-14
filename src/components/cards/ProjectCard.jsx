@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 330px;
-  height: 490px;
+  height: 521px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -57,13 +57,14 @@ const Title = styled.div`
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
   overflow: hidden;
+  margin-top: 4px;
   display: -webkit-box;
   max-width: 100%;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  overflow: hidden;
   text-overflow: ellipsis;
 `;
+
 const Date = styled.div`
   font-size: 12px;
   margin-left: 2px;
@@ -138,11 +139,13 @@ const ProjectCard = ({ project }) => {
         ))}
       </Members>
       <Button href={project.github} target="_blank">
-        View Code 
+        View Code
       </Button>
-      <Button href={project.webapp} target="_blank">
-        View Live App &nbsp; <i class="fa-solid fa-up-right-from-square"></i>
-      </Button>
+      {project.webapp && (
+        <Button href={project.webapp} target="_blank">
+          View Live App &nbsp; <i class="fa-solid fa-up-right-from-square"></i>
+        </Button>
+      )}
     </Card>
   );
 };

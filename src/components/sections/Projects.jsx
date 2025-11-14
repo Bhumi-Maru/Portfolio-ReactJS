@@ -106,13 +106,12 @@ const Projects = () => {
           I have worked on a few projects. Here are some of my projects.
         </Desc>
 
-      
-
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => <ProjectCard project={project} />)}
           {projects
             .filter((item) => item.category === toggle)
+            .reverse()
             .map((project) => (
               <ProjectCard project={project} />
             ))}
