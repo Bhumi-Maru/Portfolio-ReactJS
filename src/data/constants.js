@@ -7,7 +7,6 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1xEjrHBv8ixBi_7JmOHWKACN-GsogU_Gj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/bhumi-maru/",
-  github: "https://github.com/Bhumi-Maru",
 };
 
 export const skills = [
